@@ -1,0 +1,44 @@
+@media only screen and (max-width: 480px) {
+    .twelve-s {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .four-l {
+        width: 33.33333%;
+    }
+    .twelve-b {
+        width: 100%
+    }
+    .twelve-ms {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .three-l {
+        width: 25%;
+    }
+    .eight-l {
+        width: 66.66666%;
+    }
+    .twelve-bs {
+        display: block;
+    }
+}
+
+#header {
+    background-color: #D8D8DC;
+}
+
+.navbarContent {
+    background-color: #D8D8DC;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+}
+
+.column {
+    float: left;
+}
